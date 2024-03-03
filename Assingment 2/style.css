@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #42404E;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+h1.logotext {
+    margin: 0;
+    font-size: 24px;
+    color: #09FCA5;
+    padding-left: 40px;
+}
+
+nav {
+    /* display: flex; */
+    list-style: none;
+    padding: 0;
+    margin-top: 10  0px;
+    /* margin-right: 400px; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c5a5a5;
+    padding-left: 40px;
+  }
+  
+  li {
+    float: left;
+    margin-right: 50px;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #f68383;
+  }
+
+.search-bar {
+    display: flex;
+    justify-self: center;
+    width: 28%;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 20px;
+    border: 1px solid #595959;
+    border-radius: 20px;
+    width: 100%;
+}
+/*About US*/
+
+.aboutus {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1px;
+    padding-bottom:10px ;
+}
+
+
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+.aboutusdiv{
+    color: white;
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom:10px;
+    margin-top: -16px;
+
+}
+div.ias
+{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    padding-top: 1px;
+    margin-top: -4px;
+}
+button.lias{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+.formconta{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    border-radius: 20px;
+}
+  .form-container {
+    display: inline-block;
+    width: 40%;
+    margin-left: 20px;
+
+  }
+  .ipscolor{
+    background: rgb(238,193,78);
+    background: linear-gradient(180deg, rgba(238,193,78,1) 0%, rgba(68,66,62,0.9514180672268907) 78%);
+    height: 100vh;
+  }
+  div.other-options{
+    color: black;
+    display: inline-block;
+    width: 60%;
+    
+  }
+  h1.ips {
+    font-size: 2em;
+    margin-top: -5px;
+    padding-top: 30px;
+    height: 60px;
+    color: white;
+    background-color: #15143D;
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+.ipsi {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: transparent;
+  }
+  
+  button[type="submit"] {
+    background-color: #21127C;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  button.sibtn:hover{
+    background-color: #3b3277;
+  }
+  button.sibtn{
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 30px;
+    height: 40px;
+}
+  button.google-btn {
+    background-color: #09fca708;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  button.google-btn:hover{
+    background-color: #22cd91bb;
+  }
+  p.ipsp{
+    margin-left: 300px;
+  }
+span.psw{
+    margin-left: 417px;
+}
+
+.plans{
+
+    width: 15%;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    color: black;
+}
+.plan{
+    justify-content: center;
+
+}
+.pricingtable
+{
+    border-radius: 20px 20px 0px 0px;
+    padding: 40px;
+    padding-top: 15px;
+    text-align: center;
+}
+.pricingtable2{
+    display: flex;
+    padding: 40px;
+    padding-top: 10px;
+    border-radius: 0px 0px 20px 20px;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.plans:hover{
+    background-color: rgb(89, 194, 129);
+}
+input.dspi
+{
+    background: transparent;
+    width: 500px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+}
+#msg{
+    height: 100px;
+}
+.conctimg{
+    margin-left: 15px;
+    margin-bottom: 50px;
+
+}
+#conctmee
+{
+    margin-left: 250px;
+}
+#conctmeeimg
+{
+    margin-left: 50px;
+    width: 30%;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(222, 159, 238);
+    background: linear-gradient(0deg, rgba(222, 159, 238, 1) 0%, rgba(195, 197, 103, 1) 70%);
+    align-items: center;
+}
+
+
+/* new css for editional css in pages */
+
+.pricecontainer{
+    padding: 100px;
+}
